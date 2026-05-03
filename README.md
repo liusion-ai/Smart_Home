@@ -94,7 +94,7 @@
 
 ## 演示
 
-📹 完整演示视频：https://www.bilibili.com/video/BV1oF9XBrEmL/?vd_source=ecd48a869e2adaad0265fa57f5a0e836
+📹 完整演示视频：[https://www.bilibili.com/video/BV1oF9XBrEmL/?vd_source=ecd48a869e2adaad0265fa57f5a0e836](https://www.bilibili.com/video/BV1oF9XBrEmL/?vd_source=ecd48a869e2adaad0265fa57f5a0e836)
 
 ## 开发工具
 
