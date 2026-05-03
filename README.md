@@ -81,7 +81,7 @@
 
 1. 克隆仓库
    ```bash
-   git clone https://github.com/liusion-ai/--STM32------------.git
+   git clone https://github.com/liusion-ai/Smart_Home.git
    ```
 
 2. 登录 OneNET 平台，创建产品（协议选 MQTT），添加设备，获取设备 ID 和鉴权信息
@@ -94,7 +94,7 @@
 
 ## 演示
 
-📹 完整演示视频：[点击观看](./成果展示.mp4)
+📹 完整演示视频：https://www.bilibili.com/video/BV1oF9XBrEmL/?vd_source=ecd48a869e2adaad0265fa57f5a0e836
 
 ## 开发工具
 
