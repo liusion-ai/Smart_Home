@@ -76,6 +76,7 @@
 - **IDE**: Keil MDK-ARM v5
 - **硬件**: STM32F103C8T6 最小系统板 + 外设模块
 - **云平台**: [OneNET 平台](https://open.iot.10086.cn/) 注册账号并创建产品
+- **嘉立创PCB**:https://pro.lceda.cn/editor#id=fc1a4a2bb90f4fb0b3a1e4f4355c3804
 
 ### 操作步骤
 
