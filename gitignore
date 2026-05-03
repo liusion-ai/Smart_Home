@@ -1,0 +1,56 @@
+# Keil MDK-ARM 编译产物
+*.o
+*.d
+*.crf
+*.htm
+*.dep
+*.lst
+*.map
+*.build_log.htm
+*.iex
+*.sct
+*.lnp
+*.axf
+*.hex
+*.bin
+*.elf
+Listings/
+Objects/
+RTE/
+*.uvguix.*
+*.uvoptx
+
+# IDE 临时文件
+*.bak
+*.sav
+*.old
+*.swp
+*.tmp
+~*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# HBuilder X / uni-app
+手机终端代码/**/node_modules/
+手机终端代码/**/unpackage/
+手机终端代码/**/.hbuilderx/
+手机终端代码/**/dist/
+
+# 编码转换软件（如果是二进制工具）
+编码转换软件/*.exe
+编码转换软件/*.dll
+
+# 大文件（视频建议用 Git LFS，不要直接提交）
+*.mp4
+*.avi
+*.mov
+*.zip
+*.rar
+*.7z
+
+# 日志
+*.log

@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: feizai A, 1, LIC=FYKYW-QQN7K-CXTU6-DN6XZ-XQR6Z-7I0WA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.43.0.0
+Toolchain Path:  D:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.43.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.1.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+D:\下载点\毕业设计\代码\P11-最终代码 - 副本 - 副本\stm32f103.uvprojx
+Project File Date:  04/29/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+Build target 'STM32F103'
+compiling main.c...
+.\hardware\inc\buzzer.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\hardware\inc\KEY1.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif
+user\main.c(159): warning:  #177-D: variable "Time"  was declared but never referenced
+  		u8 Time =30;
+user\main.c(424): warning:  #223-D: function "sprintf" declared implicitly
+  	sprintf(buf, "%3d", temp);
+user\main.c(422): warning:  #177-D: variable "alarm_active"  was declared but never referenced
+  	_Bool alarm_active = (smoke_sensor_state == 0);
+user\main.c(464): warning:  #1-D: last line of file ends without a newline
+  }
+user\main.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=58320 RO-data=4292 RW-data=204 ZI-data=4316  
+FromELF: creating hex file...
+".\output\stm32f103.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM::CMSIS@5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil::STM32F1xx_DFP@2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_STM32F103
+  D:/keil5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include
+  D:/keil5/ARM/PACK/Keil/STM32F1xx_DFP/2.2.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@5.0.1
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
