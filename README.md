@@ -1,12 +1,3 @@
-# 1. 进入你的项目目录
-cd Smart_Home
-
-# 2. 拉取最新代码
-git pull origin main
-
-# 3. 用下面这条命令，把新的 README 内容写入文件
-# （直接复制这一整段到终端执行）
-```文件有 17KB，聊天里确实不好复制。最简单的办法 — **用 git 命令行**：
 # 🏠 STM32 智能家居物联网系统
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
