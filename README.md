@@ -68,6 +68,7 @@ graph TB
     MAIN --> MQ2
     MAIN --> LIGHT
     MAIN --> FLAME
+
 sequenceDiagram
     participant Sensor as 🔧 传感器
     participant STM32 as 💻 STM32
@@ -88,6 +89,7 @@ sequenceDiagram
     ESP->>STM32: USART2 +IPD 接收
     STM32->STM32: cJSON 解析 → 控制外设
     STM32->>Sensor: LED/电机/舵机动作
+
 graph LR
     subgraph "Layer 3 — 应用层"
         L3["main.c<br/>业务逻辑 / 状态管理"]
