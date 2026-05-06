@@ -7,17 +7,6 @@ git pull origin main
 # 3. 用下面这条命令，把新的 README 内容写入文件
 # （直接复制这一整段到终端执行）
 ```文件有 17KB，聊天里确实不好复制。最简单的办法 — **用 git 命令行**：
-
-### 你只需要在终端执行这几步：
-
-```bash
-# 1. 克隆一个临时目录（或者直接用你已有的项目录）
-cd ~
-git clone https://github.com/liusion-ai/Smart_Home.git
-cd Smart_Home
-
-# 2. 替换 README（这一整段复制到终端）
-cat > README.md << 'READMEOF'
 # 🏠 STM32 智能家居物联网系统
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
